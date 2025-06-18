@@ -1,0 +1,7 @@
+streamlit
+ultralytics
+keras-facenet
+opencv-python
+numpy
+scikit-learn
+Pillow
