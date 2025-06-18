@@ -1,34 +1,24 @@
 # Face Detection and Recognition App
 
-A project that implements Face Detection and Recognition using YOLOv8 (CNN model) and FaceNet for embedding-based face comparison, as per internship assignment requirements.
-
-## Features
-
-- Face Detection using YOLOv8 Nano (yolov8n.pt)
-- Face Recognition using FaceNet Embeddings
-- Mask and Cap augmentation applied to original face images
-- Cosine Similarity calculated to verify face matching accuracy
-- Streamlit Web App to upload and test faces
-- Terminal-based testing scripts provided
-- Accuracy requirement: Above 98% similarity threshold
+A project implementing Face Detection and Recognition using YOLOv8 and FaceNet to meet the internship assignment requirements.
 
 ## Project Structure
 
-face-detection-recognition/
-│
-├── data/
-│   ├── face1.png
-│   ├── face2.png
-│   ├── face1_masked.png
-│   ├── face2_capped.png
-│
-├── app.py                  # Streamlit Web App
-├── detect.py               # YOLOv8 Detection Script
-├── face_recognition.py     # FaceNet Recognition Script
-├── utils.py                # Mask and Cap Augmentation Script
-├── requirements.txt        # Required Python packages
-├── yolov8n.pt              # YOLOv8 Nano Model
-└── README.md               # Project documentation
+face-detection-recognition/  
+│  
+├── data/  
+│   ├── face1.png  
+│   ├── face2.png  
+│   ├── face1_masked.png  
+│   ├── face2_capped.png  
+│  
+├── app.py                  # Streamlit Web App  
+├── detect.py               # YOLOv8 Detection Script  
+├── face_recognition.py     # FaceNet Recognition Script  
+├── utils.py                # Mask and Cap Augmentation Script  
+├── requirements.txt        # Required Python packages  
+├── yolov8n.pt              # YOLOv8 Nano Model  
+└── README.md               # Project documentation  
 
 ## Setup Instructions
 
@@ -41,7 +31,7 @@ cd face-detection-recognition
 
 ```
 
-### 2. Create  Environment (Optional but Recommended)
+### 2. Create Virtual Environment (Optional but Recommended)
 
 ```
 
