@@ -41,7 +41,7 @@ cd face-detection-recognition
 
 ```
 
-### 2. Create Virtual Environment (Optional but Recommended)
+### 2. Create  Environment (Optional but Recommended)
 
 ```
 
